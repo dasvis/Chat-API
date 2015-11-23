@@ -69,7 +69,7 @@ abstract class AllEvents
     public function onGetNormalizedJid($mynumber, $data) {}
     public function onGetPrivacyBlockedList($mynumber, $data) {}
     public function onGetProfilePicture($mynumber, $from, $type, $data) {}
-    public function onGetReceipt($from, $id, $offline, $retry) {}
+    public function onGetReceipt($from, $id, $offline, $retry, $time) {}
     public function onGetServerProperties($mynumber, $version, $props) {}
     public function onGetServicePricing($mynumber, $price, $cost, $currency, $expiration) {}
     public function onGetStatus($mynumber, $from, $requested, $id, $time, $data) {}
